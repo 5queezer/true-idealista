@@ -24,6 +24,31 @@ export default {
       label: 'Energy consumption',
     },
   },
+  de: {
+    description: {
+      label: 'Beschreibung',
+      placeholder: 'In der Beschreibung suchen',
+      result: {
+        highlight: 'Ergebnisse hervorheben',
+        strict: 'Nur passende Ergebisse anzeigen',
+      },
+    },
+    adType: {
+      label: 'Anzeigentyp',
+      all: 'Alle',
+      private: 'Privat',
+      agency: 'Agentur',
+    },
+    rentalPeriod: {
+      label: 'Mietzeitraum',
+      all: 'Alle',
+      shortTerm: 'kurfristig',
+      longTerm: 'langfristig',
+    },
+    energyConsumption: {
+      label: 'Energieverbrauch',
+    },
+  },
   es: {
     description: {
       label: 'Descripción',
