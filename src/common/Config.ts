@@ -18,6 +18,10 @@ export const config: Config = {
     domain: 'https://www.idealista.com',
     adPath: 'inmueble',
   },
+  de: {
+    domain: 'https://www.idealista.com',
+    adPath: 'inmueble',
+  },
   pt: {
     domain: 'https://www.idealista.pt',
     adPath: 'imovel',

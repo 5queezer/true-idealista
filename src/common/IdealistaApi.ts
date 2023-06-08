@@ -40,7 +40,7 @@ export default class IdealistaApi implements IdealistaApiInterface {
   private extractEnergyConsumption(dom: HTMLElement): EnergyConsumption | null {
     const node = [...dom.querySelectorAll('[class^="icon-energy"]')]
       .map(a => a.parentNode)
-      .find(p => p.innerText.match('Consumo|Classe|Energy'));
+      .find(p => p.innerText.match('Consumo|Classe|Energy|Verbrauch'));
 
     if (!node) {
       return null;
